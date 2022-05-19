@@ -100,6 +100,6 @@ List<Post> userPosts = <Post>[
     description: "Large room with 2 bed room and suitable and clean kitchen.",
     phone: "+12512233456",
     email: "name@gmail.com",
-    houseImage: "assets/images/houseImage/house7.jpg",
+    houseImage: "assets/images/houseImage/house6.jpg",
   ),
 ];

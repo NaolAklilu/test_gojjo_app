@@ -4,6 +4,7 @@ import 'package:gojjoapp/screens/logScreen.dart';
 import 'package:gojjoapp/screens/login.dart';
 import 'package:gojjoapp/screens/post_form_screen.dart';
 import 'package:gojjoapp/screens/request_form_screen.dart';
+import 'package:gojjoapp/screens/request_list_screen.dart';
 import 'package:gojjoapp/screens/signup.dart';
 import 'package:gojjoapp/screens/user_profile.dart';
 
@@ -76,6 +77,15 @@ class AppDrawer extends StatelessWidget {
                   onTap: () {
                     Navigator.push(context, MaterialPageRoute(builder: (_) {
                       return HomeScreen();
+                    }));
+                  },
+                ),
+                ListTile(
+                  title: Text("Request list"),
+                  leading: Icon(Icons.format_list_bulleted),
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (_) {
+                      return UserRequestList();
                     }));
                   },
                 ),
