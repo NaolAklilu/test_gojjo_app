@@ -69,11 +69,11 @@ class _EditProfileState extends State<EditProfile> {
           child: ListView(
             children: [
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               const Center(
                 child: CircleAvatar(
-                  radius: 50,
+                  radius: 45,
                   backgroundColor: Colors.blue,
                 ),
               ),

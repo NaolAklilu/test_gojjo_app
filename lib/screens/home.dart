@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (_) {
-                  return PostDetails();
+                  return PostDetails(userPost: userPost);
                 },
               ),
             );
@@ -110,9 +110,10 @@ class Home extends StatelessWidget {
                             onPressed: () {
                               Navigator.push(
                                 context,
+                                
                                 MaterialPageRoute(
                                   builder: (_) {
-                                    return PostDetails();
+                                    return PostDetails(userPost: userPost);
                                   },
                                 ),
                               );
